@@ -1,3 +1,4 @@
+SOBRE
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -97,30 +98,44 @@
                 <button class="modal-close-btn" onclick="app.closeFitnessFeedback()" aria-label="Fechar">
                     <span class="material-symbols-rounded">close</span>
                 </button>
-                
-                <span class="material-symbols-rounded" style="font-size: 48px; color: var(--primary); margin-bottom: 12px; display: block;">directions_run</span>
+
+                <span class="material-symbols-rounded"
+                    style="font-size: 48px; color: var(--primary); margin-bottom: 12px; display: block;">directions_run</span>
                 <h2 class="auth-title" style="margin-bottom: 8px;">Desempenho da Aula</h2>
                 <p class="auth-subtitle">Avalie sua autonomia motora para registrar seu progresso.</p>
 
                 <!-- Guest Warning (hidden by default) -->
                 <div id="fitness-guest-warning" class="fitness-guest-warning" style="display: none;">
                     <span class="material-symbols-rounded">info</span>
-                    <span><strong>Convidado:</strong> Seu progresso não será salvo permanentemente. Faça login para ganhar troféus!</span>
+                    <span><strong>Convidado:</strong> Seu progresso não será salvo permanentemente. Faça login para
+                        ganhar troféus!</span>
                 </div>
 
                 <div class="fitness-stars-container">
                     <div class="fitness-stars" role="radiogroup" aria-label="Nível de aptidão de 1 a 5">
-                        <button class="star-btn" data-val="1" onclick="app.rateFitness(1)" aria-checked="false" role="radio" aria-label="1 estrela"><span class="material-symbols-rounded">star</span></button>
-                        <button class="star-btn" data-val="2" onclick="app.rateFitness(2)" aria-checked="false" role="radio" aria-label="2 estrelas"><span class="material-symbols-rounded">star</span></button>
-                        <button class="star-btn" data-val="3" onclick="app.rateFitness(3)" aria-checked="false" role="radio" aria-label="3 estrelas"><span class="material-symbols-rounded">star</span></button>
-                        <button class="star-btn" data-val="4" onclick="app.rateFitness(4)" aria-checked="false" role="radio" aria-label="4 estrelas"><span class="material-symbols-rounded">star</span></button>
-                        <button class="star-btn" data-val="5" onclick="app.rateFitness(5)" aria-checked="false" role="radio" aria-label="5 estrelas"><span class="material-symbols-rounded">star</span></button>
+                        <button class="star-btn" data-val="1" onclick="app.rateFitness(1)" aria-checked="false"
+                            role="radio" aria-label="1 estrela"><span
+                                class="material-symbols-rounded">star</span></button>
+                        <button class="star-btn" data-val="2" onclick="app.rateFitness(2)" aria-checked="false"
+                            role="radio" aria-label="2 estrelas"><span
+                                class="material-symbols-rounded">star</span></button>
+                        <button class="star-btn" data-val="3" onclick="app.rateFitness(3)" aria-checked="false"
+                            role="radio" aria-label="3 estrelas"><span
+                                class="material-symbols-rounded">star</span></button>
+                        <button class="star-btn" data-val="4" onclick="app.rateFitness(4)" aria-checked="false"
+                            role="radio" aria-label="4 estrelas"><span
+                                class="material-symbols-rounded">star</span></button>
+                        <button class="star-btn" data-val="5" onclick="app.rateFitness(5)" aria-checked="false"
+                            role="radio" aria-label="5 estrelas"><span
+                                class="material-symbols-rounded">star</span></button>
                     </div>
                     <div class="fitness-label" id="fitness-label">Selecione uma opção</div>
-                    <div class="fitness-desc" id="fitness-desc">Clique nas estrelas acima para avaliar sua execução.</div>
+                    <div class="fitness-desc" id="fitness-desc">Clique nas estrelas acima para avaliar sua execução.
+                    </div>
                 </div>
 
-                <button class="btn-primary" onclick="app.submitFitnessFeedback()" id="btn-fitness-submit" disabled>Salvar Progresso</button>
+                <button class="btn-primary" onclick="app.submitFitnessFeedback()" id="btn-fitness-submit"
+                    disabled>Salvar Progresso</button>
             </div>
         </div>
 
@@ -147,13 +162,15 @@
 
                 <!-- ===== SOBRE ===== -->
                 <h2 class="section-title" style="margin-top: 16px;">Sobre o Projeto</h2>
-                <div class="resume-card" onclick="app.navigate('sobre')" role="button" tabindex="0" style="background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);">
+                <div class="resume-card" onclick="app.navigate('sobre')" role="button" tabindex="0"
+                    style="background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);">
                     <div class="resume-dance-badge" aria-hidden="true" style="background: rgba(255,255,255,0.2);">
                         <span class="material-symbols-rounded">school</span>
                     </div>
                     <div class="resume-info">
                         <h3 class="resume-title">Projeto UFSM</h3>
-                        <p class="resume-pct" style="margin-top: 4px; white-space: normal; opacity: 0.9;">Desenvolvido pela UFSM com o apoio da escola local.</p>
+                        <p class="resume-pct" style="margin-top: 4px; white-space: normal; opacity: 0.9;">Desenvolvido
+                            pela UFSM com o apoio da escola local.</p>
                     </div>
                     <div class="resume-play-btn" aria-hidden="true">
                         <span class="material-symbols-rounded">arrow_forward</span>
@@ -201,8 +218,10 @@
                         </div>
                     </article>
                     <article class="dance-card" role="listitem">
-                        <div class="dance-card-img" aria-hidden="true" style="background: #e0e0e0; display: flex; align-items: center; justify-content: center;">
-                            <span class="material-symbols-rounded" style="color: #999; font-size: 48px;">music_note</span>
+                        <div class="dance-card-img" aria-hidden="true"
+                            style="background: #e0e0e0; display: flex; align-items: center; justify-content: center;">
+                            <span class="material-symbols-rounded"
+                                style="color: #999; font-size: 48px;">music_note</span>
                         </div>
                         <div class="dance-card-body">
                             <h3>Em Breve</h3>
@@ -210,8 +229,10 @@
                         </div>
                     </article>
                     <article class="dance-card" role="listitem">
-                        <div class="dance-card-img" aria-hidden="true" style="background: #e0e0e0; display: flex; align-items: center; justify-content: center;">
-                            <span class="material-symbols-rounded" style="color: #999; font-size: 48px;">music_note</span>
+                        <div class="dance-card-img" aria-hidden="true"
+                            style="background: #e0e0e0; display: flex; align-items: center; justify-content: center;">
+                            <span class="material-symbols-rounded"
+                                style="color: #999; font-size: 48px;">music_note</span>
                         </div>
                         <div class="dance-card-body">
                             <h3>Em Breve</h3>
@@ -667,9 +688,11 @@
                 <!-- Trophies Button -->
                 <section class="trophies-section" aria-label="Troféus" style="margin-bottom: 24px;">
                     <div class="dance-progress-list">
-                        <div class="dance-progress-item" style="justify-content: center;" onclick="app.navigate('trophies')">
+                        <div class="dance-progress-item" style="justify-content: center;"
+                            onclick="app.navigate('trophies')">
                             <div style="display: flex; align-items: center; gap: 12px;">
-                                <div class="dp-icon" style="background: rgba(255,219,88,0.2); color: var(--primary);">🏆</div>
+                                <div class="dp-icon" style="background: rgba(255,219,88,0.2); color: var(--primary);">🏆
+                                </div>
                                 <span class="dp-name" style="font-size: 1.05rem;">Meus Troféus</span>
                             </div>
                         </div>
@@ -858,7 +881,8 @@
                 <h2>Meu Histórico</h2>
             </header>
             <main class="dance-detail-content" style="padding-top: 20px;">
-                <p class="dance-description" style="padding: 0; margin-bottom: 24px;">Aqui você acompanha todas as aulas que já realizou e a avaliação da sua autonomia motora em cada uma.</p>
+                <p class="dance-description" style="padding: 0; margin-bottom: 24px;">Aqui você acompanha todas as aulas
+                    que já realizou e a avaliação da sua autonomia motora em cada uma.</p>
                 <div id="history-container">
                     <!-- Populated by JS -->
                 </div>
@@ -874,25 +898,30 @@
                 <h2>Minhas Conquistas</h2>
             </header>
             <main class="dance-detail-content" style="padding-top: 20px; padding-bottom: 80px;">
-                <p class="dance-description" style="text-align: center; margin-bottom: 24px;">Toque em um troféu para abrir a inspeção 3D e descobrir como conquistá-lo.</p>
-                
-                <h3 class="section-title" style="font-size: 1.1rem; padding: 0 16px; margin-bottom: 12px;">Quadrilha</h3>
+                <p class="dance-description" style="text-align: center; margin-bottom: 24px;">Toque em um troféu para
+                    abrir a inspeção 3D e descobrir como conquistá-lo.</p>
+
+                <h3 class="section-title" style="font-size: 1.1rem; padding: 0 16px; margin-bottom: 12px;">Quadrilha
+                </h3>
                 <div class="trophies-gallery" style="margin-bottom: 32px;">
                     <div class="trophy-card" onclick="app.openTrophyInspection('bronze')">
                         <div class="trophy-card-viewer" data-trophy-color="bronze">
-                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan environment-image="neutral" exposure="1"></model-viewer>
+                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan
+                                environment-image="neutral" exposure="1"></model-viewer>
                         </div>
                         <h4>Bronze</h4>
                     </div>
                     <div class="trophy-card" onclick="app.openTrophyInspection('gold')">
                         <div class="trophy-card-viewer" data-trophy-color="gold">
-                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan environment-image="neutral" exposure="1"></model-viewer>
+                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan
+                                environment-image="neutral" exposure="1"></model-viewer>
                         </div>
                         <h4>Ouro</h4>
                     </div>
                     <div class="trophy-card" onclick="app.openTrophyInspection('platinum')">
                         <div class="trophy-card-viewer" data-trophy-color="platinum">
-                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan environment-image="neutral" exposure="1"></model-viewer>
+                            <model-viewer src="image/Trofeu.glb" auto-rotate disable-zoom disable-pan
+                                environment-image="neutral" exposure="1"></model-viewer>
                         </div>
                         <h4>Platina</h4>
                     </div>
@@ -902,22 +931,28 @@
                 <div class="trophies-gallery">
                     <div class="trophy-card" style="opacity: 0.6; filter: grayscale(100%); cursor: default;">
                         <div class="trophy-card-viewer" style="position: relative;">
-                            <span class="material-symbols-rounded" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
-                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral" exposure="0.5"></model-viewer>
+                            <span class="material-symbols-rounded"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
+                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral"
+                                exposure="0.5"></model-viewer>
                         </div>
                         <h4>Bronze</h4>
                     </div>
                     <div class="trophy-card" style="opacity: 0.6; filter: grayscale(100%); cursor: default;">
                         <div class="trophy-card-viewer" style="position: relative;">
-                            <span class="material-symbols-rounded" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
-                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral" exposure="0.5"></model-viewer>
+                            <span class="material-symbols-rounded"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
+                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral"
+                                exposure="0.5"></model-viewer>
                         </div>
                         <h4>Ouro</h4>
                     </div>
                     <div class="trophy-card" style="opacity: 0.6; filter: grayscale(100%); cursor: default;">
                         <div class="trophy-card-viewer" style="position: relative;">
-                            <span class="material-symbols-rounded" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
-                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral" exposure="0.5"></model-viewer>
+                            <span class="material-symbols-rounded"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; color: rgba(255,255,255,0.8); z-index: 10;">lock</span>
+                            <model-viewer src="image/Trofeu.glb" disable-zoom disable-pan environment-image="neutral"
+                                exposure="0.5"></model-viewer>
                         </div>
                         <h4>Platina</h4>
                     </div>
@@ -926,22 +961,19 @@
         </section>
 
         <!-- ==================== MODAL: TROPHY INSPECTION ==================== -->
-        <div id="trophy-inspection-modal" class="modal-overlay" aria-hidden="true" style="align-items: center; justify-content: center; padding: 0;">
+        <div id="trophy-inspection-modal" class="modal-overlay" aria-hidden="true"
+            style="align-items: center; justify-content: center; padding: 0;">
             <div class="trophy-fullscreen">
-                <button class="modal-close-btn" style="position: absolute; top: 40px; left: 20px; z-index: 100; color: white; background: rgba(0,0,0,0.3); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" onclick="app.closeTrophyInspection()" aria-label="Fechar Inspeção">
+                <button class="modal-close-btn"
+                    style="position: absolute; top: 40px; left: 20px; z-index: 100; color: white; background: rgba(0,0,0,0.3); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"
+                    onclick="app.closeTrophyInspection()" aria-label="Fechar Inspeção">
                     <span class="material-symbols-rounded">close</span>
                 </button>
-                
-                <model-viewer 
-                    id="fullscreen-trophy-viewer"
-                    src="image/Trofeu.glb" 
-                    auto-rotate 
-                    camera-controls 
-                    environment-image="neutral"
-                    exposure="1"
-                    shadow-intensity="1">
+
+                <model-viewer id="fullscreen-trophy-viewer" src="image/Trofeu.glb" auto-rotate camera-controls
+                    environment-image="neutral" exposure="1" shadow-intensity="1">
                 </model-viewer>
-                
+
                 <div class="trophy-fullscreen-info">
                     <h2 id="fs-trophy-title">Troféu</h2>
                     <p id="fs-trophy-desc">Descrição</p>
@@ -959,27 +991,55 @@
             </header>
             <main class="dance-detail-content" style="padding-top: 20px;">
                 <h3 style="margin-bottom: 12px; font-size: 1.5rem; color: var(--primary);">Brasil em Movimento</h3>
-                
-                <p class="dance-description" style="padding: 0; margin-bottom: 16px;">O <strong>Brasil em Movimento</strong> é um ecossistema digital dedicado ao ensino de danças regionais brasileiras, concebido para unir a preservação das nossas tradições à promoção da saúde e do bem-estar. O projeto utiliza a dança como uma ferramenta fundamental de consciência corporal, integrando ritmos que atravessam o país — desde o rigor técnico e a cadência das danças gaúchas até a energia vibrante da quadrilha e do xaxado. Através de uma interface mobile-first, o aplicativo democratiza o acesso à atividade física, transformando o aprendizado em uma jornada imersiva onde o movimento melhora a mobilidade e a saúde mental, respeitando sempre a pluralidade cultural e o tempo de evolução de cada indivíduo.</p>
-                
-                <p class="dance-description" style="padding: 0; margin-bottom: 24px;">A plataforma se destaca pelo seu desenvolvimento técnico e acadêmico, sendo fruto de uma colaboração interdisciplinar de impacto social. Este projeto é uma realização do <strong>Laboratório de Interface Visual (LIV)</strong> do curso de Desenho Industrial da UFSM, em conjunto com o <strong>Laboratório de Audiovisual (LAV)</strong>, unindo a expertise em design de interface e produção de conteúdo dinâmico. A fundamentação rítmica e técnica dos movimentos conta com o apoio direto do <strong>Curso de Dança da UFSM</strong>, garantindo que o ensino seja pedagogicamente sólido e culturalmente autêntico. Além disso, o aplicativo cumpre um papel vital na comunidade local através da colaboração com a <strong>Escola Margarida Lopes</strong> de Santa Maria, servindo como uma ferramenta de ensino sobre saúde e movimento para estudantes da rede pública.</p>
-                
-                <p class="dance-description" style="padding: 0; margin-bottom: 32px; font-weight: 500;">Esta iniciativa reflete o compromisso com a inovação no design e o respeito ao patrimônio imaterial brasileiro, transformando o celular em um palco para a saúde e a tradição.</p>
+
+                <p class="dance-description" style="padding: 0; margin-bottom: 16px;">O <strong>Brasil em
+                        Movimento</strong> é um ecossistema digital dedicado ao ensino de danças regionais brasileiras,
+                    concebido para unir a preservação das nossas tradições à promoção da saúde e do bem-estar. O projeto
+                    utiliza a dança como uma ferramenta fundamental de consciência corporal, integrando ritmos que
+                    atravessam o país — desde o rigor técnico e a cadência das danças gaúchas até a energia vibrante da
+                    quadrilha e do xaxado. Através de uma interface mobile-first, o aplicativo democratiza o acesso à
+                    atividade física, transformando o aprendizado em uma jornada imersiva onde o movimento melhora a
+                    mobilidade e a saúde mental, respeitando sempre a pluralidade cultural e o tempo de evolução de cada
+                    indivíduo.</p>
+
+                <p class="dance-description" style="padding: 0; margin-bottom: 24px;">A plataforma se destaca pelo seu
+                    desenvolvimento técnico e acadêmico, sendo fruto de uma colaboração interdisciplinar de impacto
+                    social. Este projeto é uma realização do <strong>Laboratório de Interface Visual (LIV)</strong> do
+                    curso de Desenho Industrial da UFSM, em conjunto com o <strong>Laboratório de Audiovisual
+                        (LAV)</strong>, unindo a expertise em design de interface e produção de conteúdo dinâmico. A
+                    fundamentação rítmica e técnica dos movimentos conta com o apoio direto do <strong>Curso de Dança da
+                        UFSM</strong>, garantindo que o ensino seja pedagogicamente sólido e culturalmente autêntico.
+                    Além disso, o aplicativo cumpre um papel vital na comunidade local através da colaboração com a
+                    <strong>Escola Margarida Lopes</strong> de Santa Maria, servindo como uma ferramenta de ensino sobre
+                    saúde e movimento para estudantes da rede pública.
+                </p>
+
+                <p class="dance-description" style="padding: 0; margin-bottom: 32px; font-weight: 500;">Esta iniciativa
+                    reflete o compromisso com a inovação no design e o respeito ao patrimônio imaterial brasileiro,
+                    transformando o celular em um palco para a saúde e a tradição.</p>
 
                 <h3 style="margin-bottom: 16px; color: var(--primary);">Equipe de Desenvolvimento</h3>
-                
-                <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius); box-shadow: var(--shadow-sm); margin-bottom: 16px;">
-                    <h4 style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">Professores Orientadores</h4>
+
+                <div
+                    style="background: var(--bg-card); padding: 16px; border-radius: var(--radius); box-shadow: var(--shadow-sm); margin-bottom: 16px;">
+                    <h4
+                        style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">
+                        Professores Orientadores</h4>
                     <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem; line-height: 1.6;">
                         <li>[Espaço para Nome do Professor]</li>
                         <li>[Espaço para Nome do Professor]</li>
                     </ul>
                 </div>
 
-                <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius); box-shadow: var(--shadow-sm); margin-bottom: 32px;">
-                    <h4 style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">Alunos e Pesquisadores</h4>
+                <div
+                    style="background: var(--bg-card); padding: 16px; border-radius: var(--radius); box-shadow: var(--shadow-sm); margin-bottom: 32px;">
+                    <h4
+                        style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">
+                        Alunos e Pesquisadores</h4>
                     <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem; line-height: 1.6;">
-                        <li><strong>Alisson George da Rosa Ferreira</strong><br><span style="font-size: 0.8rem; color: var(--text-light);">Design de Interface e Modelagem</span></li>
+                        <li><strong>Alisson George da Rosa Ferreira</strong><br><span
+                                style="font-size: 0.8rem; color: var(--text-light);">Design de Interface e
+                                Modelagem</span></li>
                         <li style="margin-top: 8px;">[Espaço para Nome do Aluno]</li>
                         <li>[Espaço para Nome do Aluno]</li>
                     </ul>
@@ -1255,7 +1315,8 @@
                     <h2 class="section-title">Sobre a Dança</h2>
                     <p class="dance-description">O Xaxado é uma dança masculina criada pelos cangaceiros de Lampião no
                         início do século XX. Caracterizado por passos arrastados, sapateados e o característico
-                        movimento lateral dos pés, é hoje reconhecido como símbolo da resistência e da nossa identidade.</p>
+                        movimento lateral dos pés, é hoje reconhecido como símbolo da resistência e da nossa identidade.
+                    </p>
                 </div>
 
                 <h2 class="section-title">Trilha do Xaxado</h2>
